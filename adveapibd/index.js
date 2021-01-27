@@ -77,13 +77,6 @@ app.get('/orders', (req, res) => {
     })
 
 });
-/*app.get('/orders/:id', (req, res) => {
-    init_models(sequelize).Orders.findByPk(req.params.id).then(response => {
-        res.status(200).send(response);
-    }).catch(error => {
-        res.status(500).send(error);
-    })
-});*/
 app.get('/companies/:id', (req, res) => {
     init_models(sequelize).Companies.findByPk(req.params.id).then(response => {
         res.status(200).send(response);
@@ -131,10 +124,9 @@ app.post(
 );
 app.post(
     '/orders_progress/add',(req,res)=>{
-        //var idss=getLustOP();
         ids++;
          init_models(sequelize).Orders_Progress.create({
-            id: ids, //parseInt(idss,10), //req.body.Lust_id.toString() ,//сделай что-то с идешником ебучий постгрес не генерирует автоматом идешник
+            id: ids,
             stage:req.body.Stage,
             price:req.body.Price,
             discription:req.body.Discription.toString(),
