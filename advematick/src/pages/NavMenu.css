@@ -1,0 +1,52 @@
+﻿﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+.navbar{
+    background-color: #002147;
+}
+#buttons {
+    background-color: #45DBE6;
+    border-radius: 0;
+    border-color: black;
+    width: 190px;
+    color: #002147;
+}
+.header-logo{
+    width: 135px;
+    height: 45px;
+}
+.form-control {
+    min-width: 600px;
+}
+#m {
+
+}
+#m1 {
+color: #FBF9FF;
+}
+#butauth{
+    color: #FBF9FF;
+}
+.form {
+    margin: auto;
+}
+.input-group {
+
+}
+.d {
+    text-align:right;
+}
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

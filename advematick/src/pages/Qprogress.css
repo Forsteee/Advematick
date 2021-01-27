@@ -1,0 +1,65 @@
+﻿.containers{
+    width: 100%;
+}
+.row{
+    margin-top: 30px;
+}
+.col{
+}
+#cards{
+    width: 293px;
+    background-color: #45DBE6;
+}
+
+.toRight{
+    width: 54px;
+    height: 54px;
+}
+.stage1{
+    width: 293px;
+    height: 36px;
+    background-color: #E5E5E5;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.stage2{
+    width: 293px;
+    height: 36px;
+    background-color: #82FFFB;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.stage3{
+    width: 293px;
+    height: 36px;
+    background-color: #FF61FE;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.stage4{
+    width: 293px;
+    height: 36px;
+    background-color: #FDF548;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.stage5{
+    width: 293px;
+    height: 36px;
+    background-color: #486AFF;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.stage6{
+    width: 293px;
+    height: 36px;
+    background-color: #BDFBDF;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}

@@ -1,0 +1,33 @@
+﻿.row{
+    margin-top: 30px;
+}
+.col{
+}
+.notworked{
+    width: 343px;
+    height: 36px;
+    background-color: #FF9898;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.working{
+    width: 343px;
+    height: 36px;
+    background-color: #BDFBDF;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.compliting{
+    width: 343px;
+    height: 36px;
+    background-color: #7EFCBF;
+    text-align: center;
+    border-radius: 5px;
+    color: #002147;
+}
+.card{
+    width: 343px;
+    background-color: #45DBE6;
+}
